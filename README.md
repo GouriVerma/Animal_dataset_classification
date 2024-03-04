@@ -1,3 +1,6 @@
+## Overview
+The project aims to classify 5 categories of animals by using custom CNN model. The model is evaluated based on the 3 fold cross validation technique.
+
 
 ## Dataset Preparation
 1. Initially, the dataset of images of 5 categories are chosen: "antelope, badger, bat, beer, bee" and a dictionary is by the help of pathlib library which contains each category as key and list of paths of images as value. files_dict looks like {category: list of paths of the images corresponding to that category}. Also, label_dict is made to store category as key and corresponding index as value.
