@@ -90,7 +90,25 @@ Confusion Matrix
 ![image](https://github.com/GouriVerma/Animal_dataset_classification/assets/122892114/74d57828-fc3b-4317-8d41-2a19c328b288)
 
 
+## Feature Maps of Convolutional layers
+The output of each convolutional layer can be accessed by tf.keras.models.Model. There are 4 CNN layers having 2 layers of Conv2D and 2 of MaxPooling2D. The number of filters in the layers are 32, 32, 64 and 64 respectively. The output of each layer's filter are displayed 
 
+![image](https://github.com/GouriVerma/Animal_dataset_classification/assets/122892114/a9dbc5e1-735d-45ad-ba4c-d4174e10d870)
+
+
+<br>
+
+For first layer, output of first 6 filters is as shown
+
+
+![image](https://github.com/GouriVerma/Animal_dataset_classification/assets/122892114/6ed6ca65-fc8f-4a89-bd45-665b992c9313)
+![image](https://github.com/GouriVerma/Animal_dataset_classification/assets/122892114/8ab5a37e-c815-4ecb-86d7-3daff58fb374)
+![image](https://github.com/GouriVerma/Animal_dataset_classification/assets/122892114/6435b2b2-790a-4f81-8150-5d685bee40b0)
+
+
+
+
+The very first filter appears to get rough edges of the image, followed by 3 filters extracting some of the other features like facial characteristics. The last 2nd feature gets very fine outline of the animal and the 6th feature separates the black and white color in the image and also focuses on eyes and nose.
 
 
 
